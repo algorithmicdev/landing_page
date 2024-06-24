@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
+import { FaCircle } from "react-icons/fa";
+import TextComponent from './components/textComponent';
+import TradeCard from './components/tradeCard';
+import StakeCard from './components/stakeCard';
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -147,53 +151,12 @@ export default function Home() {
       (
       <>
        <Header/>
-       <section style={{display:"flex", }}>
-        <div>
-          
-        </div>
-        <div>
-           <div>
-                   <div className="flex flex-col self-start px-5 max-md:max-w-full" style={{marginLeft:"20rem", width:"66%"}}>
-                     <div className="flex gap-4 max-md:flex-wrap">
-                       <img
-                         loading="lazy"
-                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/c70285ad522f2a01fdcf09d22696ead30987aab8b2944a177b7abf87aba19632?"
-                         className="aspect-[4] w-[262px]"
-                       />
-                       <img
-                         loading="lazy"
-                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d6049c25bbd6f120c4e3940512134521ff07a31a08cf12db5720e7e68d8f436?"
-                         className="shrink-0 my-auto aspect-[1.05] w-[37px]"
-                       />
-                       <img
-                         loading="lazy"
-                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb32ad19cfc727deb358c8d969e80426c3d461b1dcd8fc342aab349b57403d5d?"
-                         className="shrink-0 max-w-full aspect-[2.5] w-[167px]"
-                       />
-                     </div>
-                     <img
-                       loading="lazy"
-                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/b024d730767c56d7e73e2e6c66e65f8e4085ecca5467e7ba3c6acf801855f4e8?"
-                       className="mt-3 max-md:max-w-full"
-                       style={{width:"94%"}}
-                     />
-                     <img
-                       loading="lazy"
-                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3db8050a6eb7180e8e07c3da5d589b9778ac2f4da8d4894a8c805ecfcc211bf8?"
-                       className="mt-5  max-md:max-w-full"
-                       style={{width:"94%"}}
-                     />
-                     <div className="mt-16 font-medium tracking-widest text-white max-md:mt-10 max-md:max-w-full" style={{fontSize:"1.5rem"}}>
-                       Leverage your Bitcoin on-chain like <br />
-                       never before
-                     </div>
-                   </div>
- 
-           </div>
-           <div>
- 
-           </div>  
-        </div>
+       <section style={{display:"flex", flexDirection:"row", gap:"17rem"}}>
+                <TextComponent/>
+                <div style={{display:"flex", flexDirection:"column",  marginTop:"5rem", gap:"1rem"}}>
+                  <TradeCard/>
+                  <StakeCard/>
+                </div>
        </section>
       
        <Footer/>

@@ -6,9 +6,9 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: `NLX | On-Chain Perpetuals backed by Bitcoin`,
-  description: `Trade On-Chain Perpetuals including BTC, CORE and other top cryptocurrencies with up to 50x leverage directly from your wallet on Core Blockchain.`,
-    
+  title: 'NLX | On-Chain Perpetuals backed by Bitcoin',
+  description: 'Trade On-Chain Perpetuals including BTC, CORE and other top cryptocurrencies with up to 50x leverage directly from your wallet on Core Blockchain.',
+  icons:"./favicon.ico"
   }
 
 export default function RootLayout({

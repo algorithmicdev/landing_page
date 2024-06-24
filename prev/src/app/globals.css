@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Quartz'; 
-  src: url('../../public/quartz_becker.woff');
+  font-family: 'Bebas'; 
+  src: url('../../public/BebasNeue-Bold.ttf');
 } 
 
 * {
