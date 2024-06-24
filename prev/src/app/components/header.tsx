@@ -7,6 +7,7 @@ export default function Header() {
   return (
     <>
  <div className="flex gap-6 justify-between items-center px-7 py-1.5 w-full border-b border-solid bg-neutral-950 border-white border-opacity-20 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+      <a href='/' target='_blank' rel="noreferrer">
       <Image
                   loading="lazy"
                   src="/nlx_logo.svg"
@@ -15,17 +16,20 @@ export default function Header() {
                   height={20}
                   draggable="false"
       />
+      </a>
       <div className="flex gap-5 justify-between self-stretch my-auto text-sm text-center whitespace-nowrap text-zinc-500"
       style={{marginLeft:"5rem"}}>
-        <div style={{marginInline:"1rem"}}>App</div>
-        <div style={{marginInline:"1rem"}}>Bridge</div>
-        <div style={{marginInline:"1rem"}}>Docs</div>
-        <div style={{marginInline:"1rem"}}>Protocol</div>
+        <a href='https://beta.nlx.trade/' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>App</div></a>
+        <a href='https://bridge.coredao.org/bridge' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Bridge</div></a>
+        <a href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Docs</div></a>
+        <a href='/' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Protocol</div></a>
       </div>
       <div className="flex gap-5 ">
-        <div className="justify-center px-7 py-0.5 text-sm  text-orange-600 rounded border border-orange-600 border-solid " style={{fontSize:"small", height:"fit-content", marginBlock:"auto"}}>
-          Trade Now
+      <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto"}}>
+        <div className="justify-center px-7 py-0.5 text-sm  text-orange-600 rounded border border-orange-600 border-solid " style={{fontSize:"small", height:"fit-content"}}>
+         Trade Now
         </div>
+        </a>
 
 
           {/* display bg switch */}

@@ -74,84 +74,16 @@ export default function Home() {
     <>
     {/* ----------------------------------------------MOBIILE-View---------------------------------------------- */}
        {isMobile?(
-       <div
-        className="flex flex-col py-6 mobile:py-36 px-8 w-[100vw] min-h-[100vh]  items-center justify-center bg-fixed -z-1 "
-        style={{
-          backgroundImage: "url(./nlx_bg.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          color: "black",
-        }}
-      >
-         <div className="absolute inset-0 bg-black opacity-50"></div>
-         <div className="z-10 flex flex-col items-center justify-center" style={{marginBottom: '200px' }}>
-           <Image src={'/nlx_mobile_logo.png'} loading="lazy" alt={''} width={300} height={100} className='flex flex-col items-center justify-center no-drag ' draggable="false" style={{marginBottom: '3.5rem'}}/>
-           <span className='text-[#FF6633] flex flex-row items-center justify-center ' >
-              <div className='flex flex-col'>
-              <span className='text-[#FF6633] items-center justify-center' style={{fontSize:'5rem', fontFamily:'Quartz'}}>
-                {timeLeft.days}
-              </span>
-              <span className='text-[#FF6633] items-center justify-center ' style={{marginInline: 'auto',  fontFamily:'Quartz', fontSize: '1rem'}}>
-                DAYS
-              </span>
-              </div>
-              <span className='text-[#FF6633]  justify-center' style={{fontSize:'3rem', marginBottom: '30px', }}>
-                :
-              </span>
-              <div className='flex flex-col'>
-              <span className='text-[#FF6633] items-center justify-center' style={{fontSize:'5rem', fontFamily:'Quartz'}}>
-                {timeLeft.hours}
-              </span>
-              <span className='text-[#FF6633] items-center justify-center' style={{marginInline: 'auto', fontFamily:'Quartz', fontSize: '1rem'}}>
-                HRS
-              </span>
-              </div>
-              <span className='text-[#FF6633]  justify-center' style={{fontSize:'3rem', marginBottom: '30px', }}>
-                :
-              </span>
-              <div className='flex flex-col'>
-              <span className='text-[#FF6633] items-center justify-center' style={{fontSize:'5rem', fontFamily:'Quartz'}}>
-                {timeLeft.minutes}
-              </span>
-              <span className='text-[#FF6633] items-center justify-center' style={{marginInline: 'auto', fontFamily:'Quartz', fontSize: '1rem'}}>
-                MINS
-              </span>
-              </div>
-              <span className='text-[#FF6633]  justify-center' style={{fontSize:'3rem', marginBottom: '30px', }}>
-                :
-              </span>
-              <div className='flex flex-col'>
-              <span className='text-[#FF6633] items-center justify-center' style={{fontSize:'5rem', fontFamily:'Quartz', width: '60px'}}>
-                {timeLeft.seconds}
-              </span>
-              <span className='text-[#FF6633] items-center justify-center' style={{marginInline: 'auto', fontFamily:'Quartz', fontSize: '1rem'}}>
-                SECS
-              </span>
-              </div>
-           </span>
-           <Image src={'/nlx_logoremovebg.png'} loading="lazy" alt={'concept design'} width={2400} height={100} className='flex flex-col items-center justify-center no-drag ' draggable="false" style={{position: 'absolute', bottom: '30px'}}/>
-          
-           <span className='text-[#FF6633] flex flex-row items-center justify-center ' style={{ fontSize:'1rem'}}>
-              <a href="https://x.com/nlx_trade" target='_blank' className='text-[#FF6633] items-center justify-center' style={{position: 'absolute', top: '30px', left: '34px'}}>
-                TWITTER
-              </a>
-              <span className='text-[#FF6633] items-center justify-center' style={{position: 'absolute', top: '30px',}}>
-                DISCORD
-              </span>
-              <span className='text-[#FF6633] items-center justify-center' style={{position: 'absolute', top: '30px', right: '34px'}}>
-                DOCS
-              </span>
-           </span>
-         </div>
-
+       <div>
+        
+GM
          {/* ----------------------------------------------MOBIILE-View ENDS---------------------------------------------- */}
-      </div>)
+       </div>)
       :
       (
       <>
        <Header/>
-       <section style={{display:"flex", flexDirection:"row", gap:"17rem"}}>
+       <section style={{display:"flex", flexDirection:"row", gap:"17rem", justifyContent:"center"}}>
                 <TextComponent/>
                 <div style={{display:"flex", flexDirection:"column",  marginTop:"5rem", gap:"1rem"}}>
                   <TradeCard/>

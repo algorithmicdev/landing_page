@@ -8,7 +8,7 @@ export default function TextComponent() {
         <>
         <div style={{display:"flex", flexDirection:"row", marginTop:"5rem"}}>
                   {/* Vertical Row */}
-                   <div style={{marginLeft:"10rem"}}>
+                   <div style={{marginLeft:"2rem"}}>
                      <div style={{ display: 'flex', flexDirection:"column", marginTop:"1.1rem" }}>
                       <FaCircle style={{color:"#EA5B27"}} size={5}/>
                       <div style={{ borderLeft: '1px solid #EA5B27', height: '23rem', marginLeft:"0.15rem" }}></div>
@@ -16,7 +16,7 @@ export default function TextComponent() {
                      </div>
                    </div>
                    {/* Middle Text */}
-                   <div className="flex flex-col self-start px-5 max-md:max-w-full" style={{width:"66%"}}>
+                   <div className="flex flex-col self-start px-5 max-md:max-w-full" style={{width:"82%"}}>
                      <span style={{lineHeight:"6.5rem"}}>
                        <div className="flex gap-3 max-md:flex-wrap" style={{fontFamily:"Bebas", fontSize:"4rem", marginBottom:"-0.7rem"}}>
                          ON-CHAIN

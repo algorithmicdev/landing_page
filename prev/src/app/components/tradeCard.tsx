@@ -57,12 +57,14 @@ export default function TradeCard() {
                 </div>
               </div>
             </div>
+            <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer">
             <div className="justify-center items-center mt-3 text-white bg-orange-600 rounded shadow-sm" 
             style={{fontSize:"0.8rem", paddingInline:"4rem", width:"13rem", paddingBlock:"0.2rem"}}>
               Trade Now
             </div>
+            </a>
             <div className=" text-xs underline text-white text-opacity-70" style={{marginLeft:"3.8rem", marginBlock:"0.5rem"}}>
-              How to trade
+            <a href='https://nlx.mintlify.app/trade' target='_blank' rel="noreferrer"> How to trade</a>
             </div>
           </div>
         </div>
