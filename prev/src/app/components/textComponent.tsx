@@ -20,7 +20,8 @@ export default function TextComponent() {
                      <span style={{lineHeight:"6.5rem"}}>
                        <div className="flex gap-3 max-md:flex-wrap" style={{fontFamily:"Bebas", fontSize:"4rem", marginBottom:"-0.7rem"}}>
                          ON-CHAIN
-                         <span style={{placeContent:"center"}}>
+                         <span style={{display:"flex", justifyContent:"center", marginBottom:"0.5rem"}}>
+                          <div/>
                          <Image
                            loading="lazy"
                            src="/text_Design.svg"
@@ -30,6 +31,7 @@ export default function TextComponent() {
                            height={1}
                            draggable="false"
                          />
+                         <div/>
                          </span>
                          PERPS
                        </div>

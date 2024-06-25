@@ -57,15 +57,17 @@ export default function StakeCard() {
                 </div>
               </div>
             </div>
-            <a href='https://beta.nlx.trade/#/stake' target='_blank' rel="noreferrer">
-            <div className="justify-center items-center mt-3 text-white bg-orange-600 rounded shadow-sm" 
-            style={{fontSize:"0.8rem", paddingInline:"4rem", width:"13rem", paddingBlock:"0.2rem"}}>
-              Stake Now
-            </div>
-            </a>
-            
-            <div className=" text-xs underline text-white text-opacity-70" style={{marginLeft:"2.6rem", marginBlock:"0.5rem"}}>
-            <a href='https://nlx.mintlify.app/liquidity' target='_blank' rel="noreferrer"> How to stake liquidity</a>
+            <div style={{width:"13rem"}}>
+              <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer">
+              <div className="justify-center items-center mt-3 text-white bg-orange-600 rounded shadow-sm hover:bg-orange-700" 
+              style={{fontSize:"0.8rem", paddingInline:"4rem", paddingBlock:"0.2rem", display:"flex", justifyContent:"center"}}>
+
+                Stake Now
+              </div>
+              </a>
+              <div className=" text-xs underline text-opacity-70 hover:text-gray-300" style={{display:"flex", justifyContent:"center", marginBlock:"0.5rem"}}>
+              <a href='https://nlx.mintlify.app/trade' target='_blank' rel="noreferrer"> How to stake liquidity</a>
+              </div>
             </div>
           </div>
         </div>

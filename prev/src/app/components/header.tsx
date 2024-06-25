@@ -26,7 +26,7 @@ export default function Header() {
       </div>
       <div className="flex gap-5 ">
       <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto"}}>
-        <div className="justify-center px-7 py-0.5 text-sm  text-orange-600 rounded border border-orange-600 border-solid " style={{fontSize:"small", height:"fit-content"}}>
+        <div className="justify-center px-7 py-0.5 text-sm  text-orange-600 rounded border border-orange-600 border-solid hover:bg-zinc-900" style={{fontSize:"small", height:"fit-content"}}>
          Trade Now
         </div>
         </a>
@@ -34,12 +34,12 @@ export default function Header() {
 
           {/* display bg switch */}
           <div className="flex gap-2.5 ">
-           <div className=" px-1 py-1 text-base text-center  rounded-full shadow-sm bg-neutral-900 h-[33px] text-white text-opacity-70 w-[33px]">EN
+           <div className=" px-1 py-1 text-base text-center  rounded-full shadow-sm bg-black h-[33px] text-black text-opacity-70 w-[33px]">EN
            </div>
-           <div className="flex justify-center items-center px-2 rounded-full shadow-sm bg-neutral-900 ">
-           <LuSun />
+           <div className="flex justify-center items-center px-2 rounded-full shadow-sm bg-black ">
+           <LuSun color='black'/>
            </div>
-        </div>
+          </div>
       </div>
     </div>
   </>
