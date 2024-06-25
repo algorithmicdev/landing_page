@@ -54,10 +54,13 @@ export default function Home() {
       ((viewportSize.height!==0 && viewportSize.width!==0)?
       <>
       <Header />
-      <div style={{position:"absolute", bottom:"0", right:"0", zIndex:"999"}}>{"dimensions:"+viewportSize.height/1000+"x"+viewportSize.width+", mt="+(viewportSize.height/1000 + 0.27)*5}</div>
+      <div style={{position:"absolute", bottom:"0", right:"0", zIndex:"999"}}>{"scale:"+(viewportSize.height/1000 + 0.27)+"dimensions:"+viewportSize.height/1000+"x"+viewportSize.width+", mt="+(viewportSize.height/1000 + 0.27)*5}</div>
        <section style={{display:"flex", flexDirection:"row", gap:"17rem", justifyContent:"center", 
-        scale:(viewportSize.height/1000 + 0.27),
-        marginTop:`${(viewportSize.height/1000 + 0.27)*5}rem`
+        scale:(viewportSize.height/1000 + 0.27)<1.364?(viewportSize.height/1000 + 0.27):(viewportSize.height/1000 + 0.27)*1.1,
+        marginTop:`${(viewportSize.height/1000 + 0.27)<1.36?
+          ((viewportSize.height/1000 + 0.27)<1 ? 2 : ((viewportSize.height/1000 + 0.27)*5))
+          :
+          ((viewportSize.height/1000 + 0.27)*12)}rem`
         }}>
                 <TextComponent/>
                 <div style={{display:"flex", flexDirection:"column", gap:"1rem"}}>
