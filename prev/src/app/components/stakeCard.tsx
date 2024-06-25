@@ -10,7 +10,7 @@ export default function StakeCard() {
       <div className="flex gap-5">
         <div className="flex flex-col">
           <div className="flex flex-col">
-            <div className="text-white" style={{fontFamily:"Bebas", fontSize:"1.3rem"}}>Earn yield in Bitcoin</div>
+            <div className="text-white" style={{fontFamily:"Bebas", fontSize:"1.6rem"}}>Earn yield in Bitcoin</div>
             <div className="flex gap-3.5 mt-2">
               <div className="flex flex-col self-start">
                 <div style={{display:"flex", flexDirection:"row"}}>

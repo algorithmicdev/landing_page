@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function TextComponent() {
     return (
         <>
-        <div style={{display:"flex", flexDirection:"row", marginTop:"5rem"}}>
+        <div style={{display:"flex", flexDirection:"row"}}>
                   {/* Vertical Row */}
                    <div style={{marginLeft:"2rem"}}>
                      <div style={{ display: 'flex', flexDirection:"column", marginTop:"1.1rem" }}>

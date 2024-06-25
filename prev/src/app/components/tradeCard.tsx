@@ -6,11 +6,11 @@ import Image from 'next/image'
 export default function TradeCard() {
     return (
         <div>
-        <div className="px-7 pt-3 rounded-md border border-solid bg-neutral-950 border-neutral-800" style={{width:"32rem"}}>
+        <div className="px-7 pt-3 rounded-md border border-solid border-neutral-800" style={{width:"32rem"}}>
       <div className="flex gap-5">
         <div className="flex flex-col">
           <div className="flex flex-col">
-            <div className="text-white" style={{fontFamily:"Bebas", fontSize:"1.3rem"}}>Trade with Bitcoin</div>
+            <div style={{fontFamily:"Bebas", fontSize:"1.6rem"}}>Trade with Bitcoin</div>
             <div className="flex gap-3.5 mt-2">
               <div className="flex flex-col self-start">
                 <div style={{display:"flex", flexDirection:"row"}}>
@@ -63,7 +63,7 @@ export default function TradeCard() {
               Trade Now
             </div>
             </a>
-            <div className=" text-xs underline text-white text-opacity-70" style={{marginLeft:"3.8rem", marginBlock:"0.5rem"}}>
+            <div className=" text-xs underline text-opacity-70" style={{marginLeft:"3.8rem", marginBlock:"0.5rem"}}>
             <a href='https://nlx.mintlify.app/trade' target='_blank' rel="noreferrer"> How to trade</a>
             </div>
           </div>
