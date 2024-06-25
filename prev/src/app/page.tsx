@@ -10,12 +10,15 @@ import { useMedia } from "react-use";
 
 export default function Home() {
   const isMobile = useMedia("(max-width: 1100px)");
-  const innerWidth=window.innerWidth;
-  const innerHeight=window.innerHeight;
   const [viewportSize, setViewportSize] = useState({
-    width: innerWidth,
-    height: innerHeight
+    width: 0,
+    height: 0
   });
+
+  useEffect(() => {
+    handleResize();
+    },[]);
+
 
   const handleResize = () => {
     setViewportSize({
@@ -48,7 +51,7 @@ export default function Home() {
          {/* ----------------------------------------------MOBIILE-View ENDS---------------------------------------------- */}
        </div>)
       :
-      (
+      ((viewportSize.height!==0 && viewportSize.width!==0)?
       <>
       <Header />
       <div>{"dimensions:"+viewportSize.height/1000+"x"+viewportSize.width+", mt="+(viewportSize.height/1000 + 0.27)*5}</div>
@@ -64,7 +67,8 @@ export default function Home() {
        </section>
       
        <Footer/>
-      </>
+      </>:
+      ""
       )
      }
     </>
