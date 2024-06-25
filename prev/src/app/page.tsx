@@ -11,8 +11,8 @@ import { useMedia } from "react-use";
 export default function Home() {
   const isMobile = useMedia("(max-width: 1100px)");
   const [viewportSize, setViewportSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight
+    width: innerWidth,
+    height: innerHeight
   });
 
   const handleResize = () => {
