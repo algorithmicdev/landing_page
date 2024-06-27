@@ -24,7 +24,7 @@ export default function RootLayout({
        <Head>
         <link rel="preload" />
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} style={{overflowX:"hidden"}}>{children}</body>
     </html>
   )
 }

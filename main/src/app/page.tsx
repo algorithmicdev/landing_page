@@ -7,6 +7,12 @@ import TextComponent from './components/textComponent';
 import TradeCard from './components/tradeCard';
 import StakeCard from './components/stakeCard';
 import { useMedia } from "react-use";
+import MHeader from './components/mobile/mHeader';
+import MFooter from './components/mobile/mFooter';
+import { FaCircle } from 'react-icons/fa';
+import MTextComponent from './components/mobile/mTextComponent';
+import MTrade from './components/mobile/mTrade';
+import MStake from './components/mobile/mStake';
 
 export default function Home() {
   const isMobile = useMedia("(max-width: 1100px)");
@@ -31,7 +37,6 @@ export default function Home() {
     // Add event listener to listen for window resize events
     window.addEventListener('resize', handleResize);
 
-
     // Clean up event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -44,12 +49,16 @@ export default function Home() {
   return (
     <>
     {/* ----------------------------------------------MOBIILE-View---------------------------------------------- */}
-       {isMobile?(
-       <div>
-        
- GM 
-         {/* ----------------------------------------------MOBIILE-View ENDS---------------------------------------------- */}
-       </div>)
+       {isMobile?((viewportSize.height!==0 && viewportSize.width!==0)?
+      <>
+      <MHeader/>
+       <MTextComponent/>
+        <MTrade/>
+        <MStake/>
+      <MFooter/>
+      </>:
+      ""
+      )
       :
       ((viewportSize.height!==0 && viewportSize.width!==0)?
       <>

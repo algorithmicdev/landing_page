@@ -1,0 +1,7 @@
+.mx-4 {
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: rgba(45, 49, 93, 0.533); 
+  }

@@ -71,7 +71,7 @@ export default function Footer() {
                   alt={''} 
                   draggable="false"
                 />
-              <Image
+               <Image
                   loading="lazy"
                   src="/many.svg"
                   style={{width:"10%"}}
