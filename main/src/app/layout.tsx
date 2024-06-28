@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url:"/nlx-banner.png",
+        url:"https://testlandingv2.vercel.app/nlx-banner.png",
         width:1200,
         height:630,
         alt:"og-image"
