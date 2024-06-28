@@ -43,9 +43,6 @@ export default function Home() {
     };
   }, []);
 
-  console.log(viewportSize)
-  console.log(viewportSize.width/viewportSize.height)
-
   return (
     <>
     {/* ----------------------------------------------MOBIILE-View---------------------------------------------- */}
