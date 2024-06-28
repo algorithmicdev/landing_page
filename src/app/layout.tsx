@@ -29,9 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en" >
        <Head>
-        <link rel="preload" />
+        <link rel="preload" href="/BebasNeue-Bold.ttf" as="font" type="font/ttf" crossOrigin="anonymous"/>
       </Head>
-      <body className={inter.className} style={{overflowX:"hidden"}}>{children}</body>
+      <body className={inter.className} style={{overflowX:"hidden",}}>{children}</body>
     </html>
   )
 }
