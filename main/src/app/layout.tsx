@@ -10,7 +10,14 @@ export const metadata: Metadata = {
   description: 'Trade On-Chain Perpetuals including BTC, CORE and other top cryptocurrencies with up to 50x leverage directly from your wallet on Core Blockchain.',
   icons:"./favicon.ico",
   openGraph: {
-    images: '/nlx_banner.png',
+    images: [
+      {
+        url:"/nlx-banner.png",
+        width:1200,
+        height:630,
+        alt:"og-image"
+      }
+    ]
   },
   }
 
