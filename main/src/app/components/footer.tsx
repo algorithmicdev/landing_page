@@ -17,17 +17,19 @@ export default function Footer() {
     />
     <div className="flex relative gap-3 justify-between pl-8 mt-24 w-full border-t border-solid backdrop-blur-[9.199999809265137px] bg-black bg-opacity-40 border-neutral-800 max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full" style={{paddingBlock:"0.75rem"}}>
       <div className="flex justify-between max-md:flex-wrap max-md:max-w-full">
-        <div className="text-white text-opacity-50">
+        <div className="text-white text-opacity-50 flex flex-col">
           <div style={{fontSize:"x-small"}}>Audited by</div>
+          <a href='https://halborn.com/' target='_blank' rel="noreferrer" style={{width:"63%", marginBlock:"0.85rem" }}>
           <Image
             loading="lazy"
             src="/halborn_logo.svg"
-            style={{width:"65%", marginTop:"0.65rem"}}
+            style={{width:"100%"}}
             alt={''} 
             width={50} 
             height={50}
             draggable="false"
           />
+          </a>
         </div>
         <div className="flex gap-5 justify-between items-end max-md:flex-wrap">
             <div className="flex flex-col self-start">
@@ -35,42 +37,51 @@ export default function Footer() {
                 Ecosystem Partners
               </div>
               <div className="flex px-0.5 " style={{gap:"1.1rem"}}>
+                <a href='https://coredao.org/' target='_blank' rel="noreferrer" style={{width:"10%", marginBlock:"0.5rem"}}>
                 <Image
                   loading="lazy"
                   src="/core_logo.svg"
-                  style={{width:"10%"}}
-                  width={50} 
+                  style={{width:"100%"}}
+                  width={100} 
                   height={50}
                   alt={''} 
                   draggable="false"
+
                 />
+                </a>
+                <a href='https://pyth.network/' target='_blank' rel="noreferrer" style={{width:"9%", marginBlock:"0.825rem"}}>
                 <Image
                   loading="lazy"
                   src="/pyth_logo.svg"
-                  style={{width:"8%"}}
+                  style={{width:"100%"}}
                   width={50} 
                   height={50}
                   alt={''} 
                   draggable="false"
                 />
+                </a>
+                <a href='https://www.colend.xyz/' target='_blank' rel="noreferrer" style={{width:"15%", marginBlock:"0.25rem"}}>
                 <Image
                   loading="lazy"
                   src="/colend_logo.svg"
-                  style={{width:"17%"}}
+                  style={{width:"100%"}}
                   width={50} 
                   height={50}
                   alt={''} 
                   draggable="false"
                 />
+                </a>
+                <a href='https://glyph.exchange/' target='_blank' rel="noreferrer" style={{width:"11%", marginBlock:"0.7rem"}}>
                 <Image
                   loading="lazy"
                   src="/glyph_logo.svg"
-                  style={{width:"15%"}}
+                  style={{width:"100%"}}
                   width={50} 
                   height={50}
                   alt={''} 
                   draggable="false"
                 />
+                </a>
                <Image
                   loading="lazy"
                   src="/many.svg"
@@ -84,8 +95,8 @@ export default function Footer() {
             </div>            
         </div>
       </div>
-      <div className="flex px-0.5 " style={{gap:"1.1rem", marginTop:"0.5rem"}}>
-        <a style={{width:"16%"}} href='https://twitter.com/nlx_trade' target='_blank' rel="noreferrer">
+      <div className="flex px-0.5 " style={{gap:"1.1rem", marginTop:"0.75rem"}}>
+        <a style={{width:"20%"}} href='https://twitter.com/nlx_trade' target='_blank' rel="noreferrer">
        <Image
          loading="lazy"
          src="/twt1.svg"
@@ -96,7 +107,7 @@ export default function Footer() {
          draggable="false"
        />
        </a>
-       <a style={{width:"16%"}} href='https://discord.com/invite/nlxtrade' target='_blank' rel="noreferrer">
+       <a style={{width:"20%"}} href='https://discord.com/invite/nlxtrade' target='_blank' rel="noreferrer">
         <Image
          loading="lazy"
          src="/discord1.svg"
@@ -107,7 +118,7 @@ export default function Footer() {
          draggable="false"
        />
        </a>
-       <a style={{width:"15%"}} href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer">
+       <a style={{width:"19%"}} href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer">
        <Image
          loading="lazy"
          src="/docBook.svg"

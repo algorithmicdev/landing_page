@@ -53,58 +53,68 @@ export default function MTextComponent() {
 
                       <div className="text-white text-opacity-50" style={{display:"flex", flexDirection:"column", alignItems:"center", marginTop:"1rem"}}>
                         <div style={{fontSize:"small"}}>Audited by</div>
+                        <a href='https://halborn.com/' target='_blank' rel="noreferrer" style={{width:"65%", paddingBlock:"0.6rem" }}>
                         <Image
                           loading="lazy"
                           src="/halborn_logo.svg"
-                          style={{width:"65%", marginTop:"0.65rem"}}
+                          style={{width:"100%"}}
                           alt={''} 
                           width={50} 
                           height={50}
                           draggable="false"
                         />
+                        </a>
                       </div>
 
-                      <div className="flex flex-col self-start" style={{alignItems:"center", marginTop:"1rem", width:"100%"}}>
+                      <div className="flex flex-col self-start" style={{alignItems:"center", marginTop:"0.5rem", width:"100%"}}>
                         <div className=" text-white text-opacity-50" style={{fontSize:"small"}}>
                           Ecosystem Partners
                         </div>
-                        <div className="flex px-2 " style={{gap:"1.1rem", marginTop:"0.65rem", justifyContent:"space-between"}}>
+                        <div className="flex px-2 " style={{gap:"1.1rem", marginTop:"0.35rem", justifyContent:"space-between"}}>
+                          <a href='https://coredao.org/' target='_blank' rel="noreferrer" style={{width:"20%", marginBlock:"0.5rem"}}>
                           <Image
                             loading="lazy"
                             src="/core_logo.svg"
-                            style={{width:"20%"}}
+                            style={{width:"100%"}}
                             width={50} 
                             height={50}
                             alt={''} 
                             draggable="false"
                           />
+                          </a>
+                          <a href='https://pyth.network/' target='_blank' rel="noreferrer" style={{width:"16%", marginBlock:"0.85rem"}}>
                           <Image
                             loading="lazy"
                             src="/pyth_logo.svg"
-                            style={{width:"16%"}}
+                            style={{width:"100%"}}
                             width={50} 
                             height={50}
                             alt={''} 
                             draggable="false"
                           />
+                          </a>
+                          <a href='https://www.colend.xyz/' target='_blank' rel="noreferrer" style={{width:"23%", marginBlock:"0.5rem"}}>
                           <Image
                             loading="lazy"
                             src="/colend_logo.svg"
-                            style={{width:"20%"}}
+                            style={{width:"100%"}}
                             width={50} 
                             height={50}
                             alt={''} 
                             draggable="false"
                           />
+                          </a>
+                          <a href='https://glyph.exchange/' target='_blank' rel="noreferrer" style={{width:"20%", paddingBlock:"0.75rem"}}>
                           <Image
                             loading="lazy"
                             src="/glyph_logo.svg"
-                            style={{width:"20%"}}
+                            style={{width:"100%"}}
                             width={50} 
                             height={50}
                             alt={''} 
                             draggable="false"
                           />
+                          </a>
                         </div>
                          <Image
                             loading="lazy"
