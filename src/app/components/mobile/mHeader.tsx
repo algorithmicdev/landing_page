@@ -45,7 +45,7 @@ export default function MHeader() {
         {isOpen ? <RxCross1 size={25} style={{zIndex:"11"}}/> : <RxHamburgerMenu size={25} color='gray' />}
       </div>
         <div className={`flex-col ${isOpen ? 'flex' : 'hidden'} text-xl text-zinc-500 md:ml-0`} style={{height:"100%",width:"100%", zIndex:"10", position:"absolute", top:"0", background:"rgba(23,24,44,.533) 0 0 no-repeat padding-box", backdropFilter:"blur(1.7rem)", boxShadow:".8rem .3rem .6rem rgba(0,0,0,.161)"}}>
-        <a href='/' target='_blank' rel="noreferrer"> 
+        <a href='/' target='_blank' rel="noreferrer" style={{width:"23.25%"}}> 
         <Image
                     loading="lazy"
                     src="/nlx_logo.svg"
@@ -53,7 +53,7 @@ export default function MHeader() {
                     width={80}     
                     height={20}
                     draggable="false"
-                    style={{width:"8rem", padding:"1rem"}}
+                    style={{width:"8rem", margin:"1rem"}}
         />
       </a>
         {/* <hr style={{opacity:"30%"}}/> */}
