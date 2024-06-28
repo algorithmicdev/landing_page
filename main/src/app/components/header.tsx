@@ -12,12 +12,12 @@ export default function Header() {
                   loading="lazy"
                   src="/nlx_logo.svg"
                   className="shrink-0 self-stretch my-auto " alt={''} 
-                  width={80}     
+                  width={90}     
                   height={20}
                   draggable="false"
       />
       </a>
-      <div className="flex gap-5 justify-between self-stretch my-auto text-sm text-center whitespace-nowrap text-zinc-500"
+      <div className="flex gap-5 justify-between self-stretch my-auto text-md text-center whitespace-nowrap text-zinc-500"
       style={{marginLeft:"5rem"}}>
         <a href='https://beta.nlx.trade/' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>App</div></a>
         <a href='https://bridge.coredao.org/bridge' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Bridge</div></a>
@@ -26,7 +26,7 @@ export default function Header() {
       </div>
       <div className="flex gap-5 ">
       <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto"}}>
-        <div className="justify-center px-7 py-0.5 text-sm  text-orange-600 rounded border border-orange-600 border-solid hover:bg-zinc-900" style={{fontSize:"small", height:"fit-content"}}>
+        <div className="justify-center px-8 py-1 text-md  text-orange-600 rounded border border-orange-600 border-solid hover:bg-zinc-900" style={{fontSize:"small", height:"fit-content"}}>
          Trade Now
         </div>
         </a>

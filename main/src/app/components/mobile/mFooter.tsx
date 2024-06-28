@@ -30,10 +30,10 @@ export default function MFooter() {
          draggable="false"
        />
        </a>
-       <a style={{width:"9.5%"}} href='https://twitter.com/nlx_trade' target='_blank' rel="noreferrer">
+       <a style={{width:"9.5%"}} href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer">
        <Image
          loading="lazy"
-         src="/tg1.svg"
+         src="/docBook.svg"
          style={{width:"100%"}}
          width={50} 
          height={50}
