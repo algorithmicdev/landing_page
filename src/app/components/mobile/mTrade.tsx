@@ -74,8 +74,8 @@ export default function MTrade() {
             draggable="false"
           />
         </div>
-        <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBottom:"2rem"}}>
-              <div className="justify-center items-center mt-3 text-white bg-orange-600 rounded shadow-sm hover:bg-orange-700" 
+        <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBottom:"2rem", marginTop:"0.75rem"}}>
+              <div className="justify-center items-center text-white bg-orange-600 rounded shadow-sm hover:bg-orange-700" 
               style={{fontSize:"0.8rem", paddingInline:"4rem", paddingBlock:"0.2rem", display:"flex", justifyContent:"center"}}>
                 Trade Now
               </div>

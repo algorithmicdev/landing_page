@@ -45,8 +45,8 @@ export default function MTextComponent() {
                        Bitcoin liquidity
                      </div>
 
-                     <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto"}}>
-                      <div className="justify-center text-sm  text-orange-600 rounded border border-orange-600 border-solid hover:bg-zinc-900" style={{fontSize:"x-large", height:"fit-content", paddingBlock:"1rem",paddingInline:"4rem", marginTop:"1.5rem"}}>
+                     <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto", marginTop:"1.5rem"}}>
+                      <div className="justify-center text-sm  text-orange-600 rounded border border-orange-600 border-solid hover:bg-zinc-900" style={{fontSize:"x-large", height:"fit-content", paddingBlock:"1rem",paddingInline:"4rem"}}>
                        Go to NLX
                       </div>
                      </a>

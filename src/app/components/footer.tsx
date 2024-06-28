@@ -49,7 +49,7 @@ export default function Footer() {
 
                 />
                 </a>
-                <a href='https://pyth.network/' target='_blank' rel="noreferrer" style={{width:"9%", marginBlock:"0.825rem"}}>
+                <a href='https://pyth.network/' target='_blank' rel="noreferrer" style={{width:"8%", marginBlock:"0.875rem"}}>
                 <Image
                   loading="lazy"
                   src="/pyth_logo.svg"

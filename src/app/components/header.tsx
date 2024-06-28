@@ -19,10 +19,10 @@ export default function Header() {
       </a>
       <div className="flex gap-5 justify-between self-stretch my-auto text-md text-center whitespace-nowrap text-zinc-500"
       style={{marginLeft:"5rem"}}>
-        <a href='https://beta.nlx.trade/' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>App</div></a>
-        <a href='https://bridge.coredao.org/bridge' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Bridge</div></a>
-        <a href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Docs</div></a>
-        <a href='https://github.com/NLX-Protocol/nlx-synthetics' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}}>Protocol</div></a>
+        <a href='https://beta.nlx.trade/' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}} className='hover:text-white'>App</div></a>
+        <a href='https://bridge.coredao.org/bridge' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}} className='hover:text-white'>Bridge</div></a>
+        <a href='https://nlx.mintlify.app/introduction' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}} className='hover:text-white'>Docs</div></a>
+        <a href='https://github.com/NLX-Protocol/nlx-synthetics' target='_blank' rel="noreferrer"><div style={{marginInline:"1rem"}} className='hover:text-white'>Protocol</div></a>
       </div>
       <div className="flex gap-5 ">
       <a href='https://beta.nlx.trade/#/trade' target='_blank' rel="noreferrer" style={{marginBlock:"auto"}}>
