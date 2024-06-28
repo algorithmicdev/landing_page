@@ -66,11 +66,11 @@ export default function MTrade() {
         <div style={{marginLeft:"3rem"}}>
           <Image
             loading="lazy"
-            src="/mCandles.png"
+            src="/tradeCandles.svg"
             style={{width:"11rem"}}
             alt=""
-            width={1000000}
-            height={1000000}
+            width={1}
+            height={1}
             draggable="false"
           />
         </div>

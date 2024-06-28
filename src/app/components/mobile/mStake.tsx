@@ -66,11 +66,11 @@ export default function MStake() {
         <div >
           <Image
             loading="lazy"
-            src="/mCoins.png"
+            src="/coinsImg.svg"
             style={{width:"11rem"}}
             alt=""
-            width={1000000}
-            height={1000000}
+            width={1}
+            height={1}
             draggable="false"
           />
         </div>
