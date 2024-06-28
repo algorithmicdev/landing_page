@@ -3,9 +3,11 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import "./mHeader.css";
+import { useMedia } from 'react-use';
 
 export default function MHeader() {
     const [isOpen, setIsOpen] = useState(false);
+    const isMobile = useMedia("(max-width: 1100px)");
     const [selectedLink, setSelectedLink] = useState('Home');
 
     const toggleMenu = () => {
@@ -16,12 +18,12 @@ export default function MHeader() {
     setSelectedLink(link);
   };
       useEffect(() => {
-        if (isOpen) {
+        if (isOpen && isMobile) {
           document.body.style.overflow = 'hidden';
-        } else {
+        } else if((!isOpen && isMobile)){
           document.body.style.overflow = 'auto';
         }
-    },[isOpen])
+    },[isOpen, isMobile])
 
   return (
     <>
