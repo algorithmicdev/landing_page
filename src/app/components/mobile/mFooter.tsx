@@ -8,7 +8,7 @@ export default function MFooter() {
     <footer style={{height:"6rem", width:"-webkit-fill-available", display:"flex", flexDirection:"row", position:"sticky", bottom:"0"}}>
     <div className="flex justify-between w-full border-t border-solid backdrop-blur-[9.199999809265137px] bg-black bg-opacity-40 border-neutral-800 ">
       <div className="flex px-0.5 " style={{gap:"1.1rem", marginTop:"2rem", marginBottom:"1rem", justifyContent:"center", width:"100%"}}>
-       <a style={{width:"10%"}} href='https://twitter.com/nlx_trade' target='_blank' rel="noreferrer">
+       <a style={{width:"10%"}} href='https://x.com/intent/follow?screen_name=nlx_trade' target='_blank' rel="noreferrer">
        <Image
          loading="lazy"
          src="/twt1.svg"

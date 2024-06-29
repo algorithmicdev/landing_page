@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex px-0.5 " style={{gap:"1.1rem", marginTop:"0.75rem"}}>
-        <a style={{width:"20%"}} href='https://twitter.com/nlx_trade' target='_blank' rel="noreferrer">
+        <a style={{width:"20%"}} href='https://x.com/intent/follow?screen_name=nlx_trade' target='_blank' rel="noreferrer">
        <Image
          loading="lazy"
          src="/twt1.svg"
